@@ -1,0 +1,13 @@
+.search{
+    width: 300px;
+    border-radius: 50px;    
+    border: 1px solid black !important;
+}
+.bNone{
+border: none !important;
+outline: none;
+}
+/* .image-width{
+height: 5000px !important;
+width: 5000px !important;
+} */

@@ -1,0 +1,23 @@
+.imgP{
+    margin-top: -80px;
+}
+.btnSize{
+margin: -17px -5px !important ;
+}
+.boxColr{
+
+  background: linear-gradient(179deg, rgba(255, 255, 255, 0.00) 0%, #e68d8d 100%);
+}
+.padding{
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgP {
+      margin-top: 30px;
+    }
+    .Dnone{
+      display: none;
+    }
+
+  }
