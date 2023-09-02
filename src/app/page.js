@@ -8,11 +8,13 @@ import MenuSection from './menu/Menu'
 import CardSection3 from './cardSection3/CardSection3'
 import SecondLast from './seond-last/Second-last'
 import Footer from './footer/Footer'
+import Script from 'next/script'
 
 
 export default function Home() {
   return (
    <>
+   <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"/>
    <Nevbar/>
   <CardComponent/>
   <ChefSection/>

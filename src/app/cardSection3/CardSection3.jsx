@@ -89,7 +89,9 @@ const CardSection3 = ( ) =>{
       <div className="row row-gap-3 ">
                 
                 <div className="col-md-3 position-relative Dnone">
-                    <div className="imgP d-flex justify-content-center "><Image src={img1} className="img-fluid"  alt="img 2"/> </div>
+                    <div className="imgP d-flex justify-content-center "><Image src={img1} className="img-fluid"  alt="img 2"/> 
+                    
+                    </div>
                     <div className="text-center  rounded-4 boxColr">
                     
                     <div className="">

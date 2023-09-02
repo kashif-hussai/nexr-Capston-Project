@@ -6,12 +6,36 @@ margin: -17px -5px !important ;
 }
 .boxColr{
 
-  background: linear-gradient(179deg, rgba(255, 255, 255, 0.00) 0%, #e68d8d 100%);
+  border-radius: 20px;
+background:linear-gradient(180deg, rgba(255, 255, 255, 0.00) -31.53%, #f06666 303.75%);
+}
+
+.tSize{
+  font-family: Sofia Pro;
+font-size: 50px;
+font-weight: 700;
+
+}
+.pSize{
+  font-family: Sofia Pro;
+font-size: 20px;
+font-weight: 300;
+
+
 }
 
 @media only screen and (max-width: 600px) {
     .imgP {
       margin-top: 30px;
+    }
+    .tSize{
+      margin-top: 5px;
+      font-family: Sofia Pro;
+font-size: 34px;
+
+font-weight: 800;
+
+
     }
     .Dnone{
       display: none;

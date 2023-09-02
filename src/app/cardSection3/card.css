@@ -11,6 +11,9 @@ margin: -17px -5px !important ;
 .padding{
     padding-top: 150px;
 }
+.Leaf{
+  margin-right: -50px !important;
+}
 
 @media only screen and (max-width: 600px) {
     .imgP {

@@ -2,3 +2,18 @@
     display: flex;
     justify-content: space-between;
 }
+.t-color{
+    color: #FDC55E !important;
+}
+.margen{
+    margin-top: 150px !important;
+}
+.width{
+    width: 110px;
+}
+@media only screen and (max-width: 600px) {
+    .width{
+      display: none;
+    }
+
+  }

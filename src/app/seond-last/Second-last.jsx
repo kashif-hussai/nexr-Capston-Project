@@ -14,8 +14,9 @@ const SecondLast = ( ) =>{
 
         <div className="col-md-7">
             <div>
-                <h2 className="CardMargin">It’s Now More Easy to Order <br /> by Our Mobile App</h2>
-                <p>All you need to do is downlode one of the best delivery apps, make <br />
+                <div className="CardMargin t-size">It’s Now <span className="text-danger">More Easy</span> to <span className="t-color"> Order </span> <br />
+                 by Our Mobile <span className="text-danger"> App </span></div>
+                <p className="py-4 paraSize">All you need to do is downlode one of the best delivery apps, make <br />
                  a and most companies are opting  for mobile app devlopment for <br />
                  food delivery</p> 
                  <span>
