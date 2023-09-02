@@ -1,5 +1,5 @@
 import Image from "next/image";
-import socialMedia from "../assets/images/smIcons.svg"
+import socialMedia from "../../assets/images/smIcons.svg"
 import "./footer.css"
 
 

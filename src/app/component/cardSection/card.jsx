@@ -1,8 +1,8 @@
 import Image from "next/image";
-import img1 from "../assets/images/sp1.svg"
-import img0 from "../assets/images/sp0.svg"
-import starImage from "../assets/images/sp1star.svg"
-import Leaf from "../assets/images/leafRight.svg"
+import img1 from "../../assets/images/sp1.svg"
+import img0 from "../../assets/images/sp0.svg"
+import starImage from "../../assets/images/sp1star.svg"
+import Leaf from "../../assets/images/leafRight.svg"
 import  "./style.css";
 
 

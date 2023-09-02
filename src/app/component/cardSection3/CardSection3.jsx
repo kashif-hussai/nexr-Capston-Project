@@ -1,6 +1,6 @@
 import Image from "next/image";
-import img1 from "../assets/images/sp1.svg"
-import starImage from "../assets/images/sp1star.svg"
+import img1 from "../../assets/images/sp1.svg"
+import starImage from "../../assets/images/sp1star.svg"
 import  "./card.css";
 
 const CardSection3 = ( ) =>{

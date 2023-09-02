@@ -1,0 +1,89 @@
+.search{
+    width: 330px;
+    border-radius: 50px;    
+    border: 1px solid black !important;
+}
+.bNone{
+border: none !important;
+outline: none;
+}
+.topMargin{
+    margin-top: -130px !important;
+    margin-left: 150px !important;
+}
+.NavBg{
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0.00) 100%);
+}
+.Margin{
+    margin-top: -80px !important;
+    margin-left: 120px;
+}
+.sMargin{
+    margin-top: -490px;
+  margin-left: -60px;
+}
+.SmargenOne{
+    margin-top: -270px !important;
+    margin-left: -145px ;
+}
+.Smargentwo{
+    margin-left: -20px ;
+    margin-top: -30px !important;
+}
+.Smargenthree{
+    margin-left: 200px ;
+    margin-top: -155px !important;
+}
+.Smargenfour{
+    margin-left: 350px ;
+    margin-top: -350px !important;
+}
+.FireMargin{
+    margin-left: 200px !important;
+    margin-top: -490px !important;
+}
+.RCardMargin{
+    margin-left: -140px !important;
+    margin-top: 55px !important;
+}
+.LCardMargin{
+    margin-left: 280px !important;
+    margin-top: -120px !important;
+}
+.GreenLeafMargin{
+    margin-left: 255px !important;
+    margin-top: -250px !important;
+}
+.ArrowMargin{
+    margin-left: 410px !important;
+    margin-top: -140px !important;
+}
+
+.ArrowPositon{
+ padding: 80px !important;
+}
+.t-color{
+    color: #FDC55E !important;
+}
+.tSize{
+    font-family: Sofia Pro;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height:  0%;
+}
+.pSize{
+    font-family: Sofia Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Dnone{
+      display: none;
+    }
+
+  }

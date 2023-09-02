@@ -1,9 +1,9 @@
 import Image from "next/image";
-import chef from "../assets/images/mt-2.PNG"
-import icon1 from "../assets/images/24Icon.svg"
-import icon2 from "../assets/images/phoneicon.svg"
-import icon3 from "../assets/images/bookeIcon.svg"
-import icon4 from "../assets/images/aroow.svg"
+import chef from "../../assets/images/mt-2.PNG"
+import icon1 from "../../assets/images/24Icon.svg"
+import icon2 from "../../assets/images/phoneicon.svg"
+import icon3 from "../../assets/images/bookeIcon.svg"
+import icon4 from "../../assets/images/aroow.svg"
 import "./chef.css"
 
 const ChefSection = ( ) =>{

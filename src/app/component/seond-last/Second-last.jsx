@@ -1,8 +1,8 @@
 import Image from "next/image";
 import  "./sLast.css";
-import logo1 from "../assets/images/googleLogo.svg"
-import logo2 from "../assets/images/iphoneLogo.svg"
-import cheaf from "../assets/images/chafe.svg"
+import logo1 from "../../assets/images/googleLogo.svg"
+import logo2 from "../../assets/images/iphoneLogo.svg"
+import cheaf from "../../assets/images/chafe.svg"
 
 
 const SecondLast = ( ) =>{
