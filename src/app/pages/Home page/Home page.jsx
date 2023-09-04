@@ -1,4 +1,5 @@
 import CardComponent from "@/app/component/cardSection/card";
+import CardSection2 from "@/app/component/cardSection2/cardSection2";
 import CardSection3 from "@/app/component/cardSection3/CardSection3";
 import ChefSection from "@/app/component/chef/Chef";
 import Footer from "@/app/component/footer/Footer";
@@ -13,7 +14,8 @@ const Homepage = () => {
         <CardComponent/>
          <ChefSection/>
           <MenuSection/>
-         <CardSection3/>
+          <CardSection2/>
+          <CardSection3/>
            <SecondLast/>
       <Footer/>
         

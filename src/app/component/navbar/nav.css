@@ -58,7 +58,10 @@ outline: none;
     margin-left: 410px !important;
     margin-top: -140px !important;
 }
-
+/* .mintMargin{
+    margin-top:500px !important ;
+    margin-left: 700px !important;
+} */
 .ArrowPositon{
  padding: 80px !important;
 }
@@ -82,8 +85,16 @@ letter-spacing: -0.24px;
 }
 
 @media only screen and (max-width: 600px) {
-    .Dnone{
+    .disNone{
       display: none;
     }
-
+    .tSize{
+        margin-top: 50px !important;
+        width: auto;
+        line-height:  50%;
+        
+    }
+    .pSize{
+        width: auto;
+    }
   }

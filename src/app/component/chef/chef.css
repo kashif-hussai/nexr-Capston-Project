@@ -4,3 +4,14 @@
 t-color{
     color: #FDC55E !important;
 }
+.overFlow{
+    overflow-x: hidden !important;
+}
+@media only screen and (max-width: 600px) {
+   .paddingLaft{
+    padding-left: 40px;
+    .disNone{
+        display: none;
+    }
+   }
+  }

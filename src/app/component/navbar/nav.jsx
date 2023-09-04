@@ -9,7 +9,7 @@ import dArrow from "../../assets/images/DownArrow.svg"
 import Orange from "../../assets/images/orange.svg"
 import underLine from "../../assets/images/underLine.svg"
 import Arrow from "../../assets/images/ArrowUp.png"
-
+// import Mint from "../../assets/images/Mint.svg"
 import Girl from "../../assets/images/girl.svg"
 import Fire from "../../assets/images/fire.svg"
 import Lcard from "../../assets/images/L card.svg"
@@ -27,7 +27,7 @@ import arrow2 from "../../assets/images/arrow2.svg"
 const Nevbar = ( ) =>{
   return(
 <div>
-    <div className="NavBg">
+    <div className="NavBg mx-0 ps-0">
     
     <div class="container">
   
@@ -75,7 +75,7 @@ const Nevbar = ( ) =>{
       <div className=" container mt-5 pt-5 ">
         <div className="row">
           <div className="col-md-6 position-relative"> 
-          <div className="position-absolute topMargin Dnone"> <Image height={150} src= {Arrow} alt=""/></div>
+          <div className="position-absolute topMargin disNone"> <Image height={150} src= {Arrow} alt=""/></div>
           <div ><Image src={HeartIcon } alt=""/> <span>People Trust us</span> </div>
           <h1 className="pt-2 tSize"><b>We're <span className="text-danger">Serious</span> For <Image src={Orange} alt=""/> <br />
            <span className="text-danger"> Food</span> & <span className=" position-relative t-color">Delivery
@@ -89,26 +89,27 @@ const Nevbar = ( ) =>{
           <div className="pt-4 pSize"> <span mb-5><button type="button" class="btn btn-danger rounded-pill px-4">Downlode App </button> </span>
          <span className="ps-3 pt-5 pSize"> <Image height={90} src={PBotton} class="img-fluid"  alt=""/> Watch Video  </span>
          </div>
-         <div className="pt-5 Dnone"> <Image src={dArrow}  class="img-fluid" alt="darrow"/> </div>
+         <div className="pt-5 disNone"> <Image src={dArrow}  class="img-fluid" alt="darrow"/> </div>
        
           </div>
           
 
           <div className="col-md-6 position-relative">
             
-          <div className="position-absolute Margin Dnone ">
+          <div className="position-absolute Margin disNone ">
             <Image height={500} src={Girl}  alt=""/> 
-            <div className="sMargin Dnone"> <Image height={530}  src={smile}  alt=""/>
+            <div className="sMargin disNone"> <Image height={530}  src={smile}  alt=""/>
             </div>
-            <div className="SmargenOne Dnone "> <Image height={200}  src={smile1}  alt=""/></div>
-            <div className="Smargentwo Dnone"> <Image height={175}  src={smile2}  alt=""/></div>
-            <div className="Smargenthree Dnone"> <Image height={175}  src={smile3}  alt=""/></div>
-            <div className="Smargenfour Dnone"> <Image height={175}  src={smile4}  alt=""/></div>
-            <div className=" FireMargin Dnone "> <Image  src={Fire}  alt=""/></div>
-            <div className=" RCardMargin Dnone "> <Image  src={Rcard}  alt=""/></div>
-            <div className=" LCardMargin Dnone "> <Image  src={Lcard}  alt=""/></div>
-            <div className=" GreenLeafMargin Dnone "> <Image height={160} src={GreenLeaf}  alt=""/></div>
-            <div className=" ArrowMargin Dnone "> <Image height={250}  src={arrow2}  alt=""/></div>
+            <div className="SmargenOne disNone "> <Image height={200}  src={smile1}  alt=""/></div>
+            <div className="Smargentwo disNone"> <Image height={175}  src={smile2}  alt=""/></div>
+            <div className="Smargenthree disNone"> <Image height={175}  src={smile3}  alt=""/></div>
+            <div className="Smargenfour disNone"> <Image height={175}  src={smile4}  alt=""/></div>
+           
+            <div className=" FireMargin disNone "> <Image  src={Fire}  alt=""/></div>
+            <div className=" RCardMargin disNone "> <Image  src={Rcard}  alt=""/></div>
+            <div className=" LCardMargin disNone "> <Image  src={Lcard}  alt=""/></div>
+            <div className=" GreenLeafMargin disNone "> <Image height={160} src={GreenLeaf}  alt=""/></div>
+            <div className=" ArrowMargin disNone "> <Image height={250}  src={arrow2}  alt=""/></div>
             </div>
            
            

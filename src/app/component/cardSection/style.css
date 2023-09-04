@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .imgP{
     margin-top: -80px;
 }
@@ -7,37 +11,25 @@ margin: -17px -5px !important ;
 .boxColr{
 
   border-radius: 20px;
-background:linear-gradient(180deg, rgba(255, 255, 255, 0.00) -31.53%, #f06666 303.75%);
+background:linear-gradient(180deg, rgba(255, 255, 255, 0) -31.53%, #f08f8f 303.75%);
 }
 
-.tSize{
-  font-family: Sofia Pro;
-font-size: 50px;
-font-weight: 700;
-
-}
 .pSize{
   font-family: Sofia Pro;
 font-size: 20px;
 font-weight: 300;
 
-
+}
+.possition{
+  margin-top: -90px;
+  margin-left: 180px;
 }
 
 @media only screen and (max-width: 600px) {
     .imgP {
       margin-top: 30px;
     }
-    .tSize{
-      margin-top: 5px;
-      font-family: Sofia Pro;
-font-size: 34px;
-
-font-weight: 800;
-
-
-    }
-    .Dnone{
+    .disNone{
       display: none;
     }
 

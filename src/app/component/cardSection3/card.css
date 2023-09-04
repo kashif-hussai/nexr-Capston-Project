@@ -19,8 +19,11 @@ margin: -17px -5px !important ;
     .imgP {
       margin-top: 30px;
     }
-    .Dnone{
+    .disNone{
       display: none;
+    }
+    .padding{
+      padding-top: -0px;
     }
 
   }
