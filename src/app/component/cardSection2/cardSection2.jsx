@@ -30,7 +30,8 @@ const CardSection2 = ( props) =>{
         immageUrl3: star ,
         Ratting: "(4.5)",
         heading: "Kebab",
-        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+        cardStyle: "disNone"
       },
       {
         immageUrl1: img1 ,
@@ -39,7 +40,8 @@ const CardSection2 = ( props) =>{
         immageUrl3: star ,
         Ratting: "(4.5)",
         heading: "Kebab",
-        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+        cardStyle: "disNone"
       },
       {
         immageUrl1: img1 ,
@@ -48,8 +50,11 @@ const CardSection2 = ( props) =>{
         immageUrl3: star ,
         Ratting: "(4.5)",
         heading: "Kebab",
-        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+        paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+        cardStyle: "disNone"
       },
+
+
     ]
 
 
@@ -64,7 +69,8 @@ const CardSection2 = ( props) =>{
               {data.map((item)=>{
                  return(
               
-                  <div className="col-md-3 position-relative disNone">
+                  <div className="col-md-3 position-relative">
+                    <div className={item.cardStyle }>
                   <div className="imgP d-flex justify-content-center "><Image src={item.immageUrl2} className="img-fluid"  alt="img 2"/> </div>
                   <div className="position-absolute possition"> <Image src={item.immageUrl4}alt=""/> </div>
                   <div className="text-center  rounded-4 boxColr">
@@ -77,6 +83,7 @@ const CardSection2 = ( props) =>{
                           <p className="pb-3 py-1 px-2 ">{item.paragraph}</p>
                             <div className="btnSize position-absolute top-100 start-50 translate-middle">
                             <button type="button" class="btn btn-danger rounded-pill px-4 mt-3">Order Now</button>
+                            </div>
                             </div>
                             </div>
                             </div>

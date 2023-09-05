@@ -35,7 +35,8 @@ const data = [
     immageUrl3: star ,
     Ratting: "(4.8)",
     heading: "Chicken Tikka",
-    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+    cardStyle: "disNone"
   },
   {
     immageUrl1: rating3 ,
@@ -44,7 +45,8 @@ const data = [
     immageUrl3: star ,
     Ratting: "(4.2)",
     heading: "Desi Chowmein",
-    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+    cardStyle: "disNone"
   },
   {
     immageUrl1: img1 ,
@@ -53,7 +55,8 @@ const data = [
     immageUrl3: star ,
     Ratting: "(5.0)",
     heading: "Chicken Chargha",
-    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry"
+    paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
+    cardStyle: "disNone"
   }
 ]
 
@@ -77,8 +80,10 @@ const data = [
 
               {data.map((item)=>{
                  return(
-                 
                   <div className="col-md-3 position-relative">
+                  <div className={item.cardStyle }>
+                   
+                    
                   <div className="imgP d-flex justify-content-center "><Image src={item.immageUrl2} className="img-fluid"  alt="img 2"/> </div>
                   <div className="position-absolute possition priceMargin"> <Image src={item.immageUrl4}alt=""/> </div>
                   <div className="text-center  rounded-4 boxColr">
@@ -95,6 +100,9 @@ const data = [
                             </div>
                             </div>
                             </div>
+                            </div>
+                          
+                           
                  
                  )
               })}

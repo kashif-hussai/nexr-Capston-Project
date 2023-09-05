@@ -24,7 +24,10 @@ font-weight: 300;
   margin-top: -90px;
   margin-left: 180px;
 }
-
+/* .falto{
+  background-color: aqua !important;
+  color: blue;
+} */
 @media only screen and (max-width: 600px) {
     .imgP {
       margin-top: 30px;
