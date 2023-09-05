@@ -32,5 +32,7 @@ font-weight: 300;
     .disNone{
       display: none;
     }
-
+.priceMargin{
+  margin-left: 230px;
+}
   }

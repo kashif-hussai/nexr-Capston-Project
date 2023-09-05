@@ -20,48 +20,44 @@ outline: none;
 }
 .sMargin{
     margin-top: -490px;
-  margin-left: -60px;
+  margin-left: -80px;
 }
 .SmargenOne{
     margin-top: -270px !important;
     margin-left: -145px ;
 }
 .Smargentwo{
-    margin-left: -20px ;
-    margin-top: -30px !important;
+    margin-left: 30px ;
+    margin-top: -60px !important;
 }
 .Smargenthree{
-    margin-left: 200px ;
-    margin-top: -155px !important;
+    margin-left: 210px ;
+    margin-top: -165px !important;
 }
 .Smargenfour{
-    margin-left: 350px ;
-    margin-top: -350px !important;
+    margin-left: 360px ;
+    margin-top: -300px !important;
 }
 .FireMargin{
-    margin-left: 200px !important;
+    margin-left: 195px !important;
     margin-top: -490px !important;
 }
 .RCardMargin{
-    margin-left: -140px !important;
-    margin-top: 55px !important;
+    margin-left: -150px !important;
+    margin-top: 90px !important;
 }
 .LCardMargin{
-    margin-left: 280px !important;
+    margin-left: 285px !important;
     margin-top: -120px !important;
 }
 .GreenLeafMargin{
-    margin-left: 255px !important;
+    margin-left: 285px !important;
     margin-top: -250px !important;
 }
 .ArrowMargin{
     margin-left: 410px !important;
     margin-top: -140px !important;
 }
-/* .mintMargin{
-    margin-top:500px !important ;
-    margin-left: 700px !important;
-} */
 .ArrowPositon{
  padding: 80px !important;
 }

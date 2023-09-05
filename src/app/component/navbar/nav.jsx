@@ -84,10 +84,10 @@ const Nevbar = ( ) =>{
            <p className="py-3 pt-5 pSize">Best cooks and best delivery guys all at your <br />
             service. Hot tasty food will reach you in 60 <br />
              minutes.</p>
-          <div className="border search py-2 px-3"> <Image src={RSearch } alt=""/> <input  type="text" className="bNone" placeholder="email" /> 
+          <div className="border search py-2 px-3"> <Image src={RSearch } alt=""/> <input  type="text" className="bNone" placeholder="Search food" /> 
           <Image height={30} src={LSearch} class="img-fluid"  alt=""/> </div>
-          <div className="pt-4 pSize"> <span mb-5><button type="button" class="btn btn-danger rounded-pill px-4">Downlode App </button> </span>
-         <span className="ps-3 pt-5 pSize"> <Image height={90} src={PBotton} class="img-fluid"  alt=""/> Watch Video  </span>
+          <div className="pt-2 pSize"> <span mb-5><button type="button" class="btn btn-danger rounded-pill px-4">Downlode App </button> </span>
+         <span className=" pt-5 pSize"> <Image height={90} src={PBotton} class="img-fluid  mt-4"  alt=""/> Watch Video  </span>
          </div>
          <div className="pt-5 disNone"> <Image src={dArrow}  class="img-fluid" alt="darrow"/> </div>
        
@@ -97,19 +97,18 @@ const Nevbar = ( ) =>{
           <div className="col-md-6 position-relative">
             
           <div className="position-absolute Margin disNone ">
-            <Image height={500} src={Girl}  alt=""/> 
-            <div className="sMargin disNone"> <Image height={530}  src={smile}  alt=""/>
+            <Image height={500} src={Girl} className="img-fluid"  alt=""/> 
+            <div className="sMargin disNone"> <Image   src={smile}  alt=""/>
             </div>
-            <div className="SmargenOne disNone "> <Image height={200}  src={smile1}  alt=""/></div>
-            <div className="Smargentwo disNone"> <Image height={175}  src={smile2}  alt=""/></div>
-            <div className="Smargenthree disNone"> <Image height={175}  src={smile3}  alt=""/></div>
-            <div className="Smargenfour disNone"> <Image height={175}  src={smile4}  alt=""/></div>
-           
-            <div className=" FireMargin disNone "> <Image  src={Fire}  alt=""/></div>
-            <div className=" RCardMargin disNone "> <Image  src={Rcard}  alt=""/></div>
-            <div className=" LCardMargin disNone "> <Image  src={Lcard}  alt=""/></div>
-            <div className=" GreenLeafMargin disNone "> <Image height={160} src={GreenLeaf}  alt=""/></div>
-            <div className=" ArrowMargin disNone "> <Image height={250}  src={arrow2}  alt=""/></div>
+            <div className="SmargenOne disNone "> <Image height={200}  src={smile1} className="img-fluid" alt=""/></div>
+            <div className="Smargentwo disNone"> <Image height={175}  src={smile2} className="img-fluid" alt=""/></div>
+            <div className="Smargenthree disNone"> <Image height={175}  src={smile3} className="img-fluid" alt=""/></div>
+            <div className="Smargenfour disNone"> <Image height={400}  src={smile4} className="img-fluid" alt=""/></div>
+            <div className=" FireMargin disNone "> <Image  src={Fire} className="img-fluid" alt=""/></div>
+            <div className=" RCardMargin disNone "> <Image  src={Rcard} className="img-fluid" alt=""/></div>
+            <div className=" LCardMargin disNone"> <Image height={120} src={Lcard} className="img-fluid" alt=""/></div>
+            <div className=" GreenLeafMargin disNone "> <Image height={160} src={GreenLeaf}  className="img-fluid" alt=""/></div>
+            <div className=" ArrowMargin disNone "> <Image height={250}  src={arrow2} className="img-fluid"  alt=""/></div>
             </div>
            
            

@@ -6,9 +6,6 @@ import chicken1 from "../../assets/images/pizza4.svg"
 import chicken2 from "../../assets/images/pizza3.svg"
 import chicken3 from "../../assets/images/pizza2.svg"
 import price from "../../assets/images/$1.svg"
-import price1 from "../../assets/images/$2.svg"
-import price2 from "../../assets/images/$3.svg"
-import price3 from "../../assets/images/$1.svg"
 import  "./cardSection.css";
 
 
@@ -79,7 +76,7 @@ const CardSection2 = ( props) =>{
                           <h5 className="text-danger mt-4 ">{item.heading}</h5>
                           <p className="pb-3 py-1 px-2 ">{item.paragraph}</p>
                             <div className="btnSize position-absolute top-100 start-50 translate-middle">
-                            <button type="button" class="btn btn-danger rounded-pill px-4 mt-3">Danger</button>
+                            <button type="button" class="btn btn-danger rounded-pill px-4 mt-3">Order Now</button>
                             </div>
                             </div>
                             </div>

@@ -39,7 +39,7 @@ const Footer = ( ) =>{
                  adipiscing elit, sed do eiusmod tempor</p>
                 
                  <input className="border-none  rounded-pill py-1" type="email" placeholder="Email" /> 
-               <span className="ps-2">  <button type="button" class="btn btn-danger rounded-pill px-4">Danger</button> </span>
+               <span className="ps-2">  <button type="button" class="btn btn-danger rounded-pill px-4">Subscribe</button> </span>
             </div>
         </div>
       </div>

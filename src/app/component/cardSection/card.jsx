@@ -80,7 +80,7 @@ const data = [
                  
                   <div className="col-md-3 position-relative">
                   <div className="imgP d-flex justify-content-center "><Image src={item.immageUrl2} className="img-fluid"  alt="img 2"/> </div>
-                  <div className="position-absolute possition"> <Image src={item.immageUrl4}alt=""/> </div>
+                  <div className="position-absolute possition priceMargin"> <Image src={item.immageUrl4}alt=""/> </div>
                   <div className="text-center  rounded-4 boxColr">
                   
                   <div className="pSize">
@@ -90,7 +90,7 @@ const data = [
                           <h5 className="text-danger mt-4 ">{item.heading}</h5>
                           <p className="pb-3 py-1 px-2 ">{item.paragraph}</p>
                             <div className="btnSize position-absolute top-100 start-50 translate-middle">
-                            <button type="button" class="btn btn-danger rounded-pill px-4 mt-3">Danger</button>
+                            <button type="button" class="btn btn-danger rounded-pill px-4 mt-3">Order Now</button>
                             </div>
                             </div>
                             </div>
@@ -99,66 +99,12 @@ const data = [
                  )
               })}
               </div>
-
-                {/* <div className="col-md-3 position-relative disNone  ">
-                <div className="imgP "><Image src={img1} className="img-fluid"  alt="img 2"/> </div>
-                <div className="text-center  rounded-4 boxColr">
-                
-                <div className="pSize">
-                <span > <Image src={starImage} className="img-fluid"  alt="img 2"/> </span>
-                        <h5 className="text-danger mt-4">Kebab</h5>
-                        <p className="pb-3">Lorem Ipsum is simply dummy <br />
-                         text of the printing and <br />
-                          typesetting industry</p>
-                          <div className="btnSize position-absolute top-100 start-50 translate-middle">
-                          <button type="button" class="btn btn-danger rounded-pill px-4">Danger</button>
-                          </div>
-                          </div>
-                          </div>
-                </div>
-
-                <div className="col-md-3 position-relative disNone  ">
-                <div className="imgP "><Image src={img1} className="img-fluid"  alt="img 2"/> </div>
-                <div className="text-center  rounded-4 boxColr">
-                
-                <div className="pSize">
-                <span > <Image src={starImage} className="img-fluid"  alt="img 2"/> </span>
-                        <h5 className="text-danger mt-4">Kebab</h5>
-                        <p className="pb-3">Lorem Ipsum is simply dummy <br />
-                         text of the printing and <br />
-                          typesetting industry</p>
-                          <div className="btnSize position-absolute top-100 start-50 translate-middle">
-                          <button type="button" class="btn btn-danger rounded-pill px-4">Danger</button>
-                          </div>
-                          </div>
-                          </div>
-                </div>
-
-                <div className="col-md-3 position-relative disNone  ">
-                <div className="imgP "><Image src={img1} className="img-fluid"  alt="img 2"/> </div>
-                <div className="text-center  rounded-4 boxColr">
-                
-                <div className=" pSize">
-                <span > <Image src={starImage} className="img-fluid"  alt="img 2"/> </span>
-                        <h5 className="text-danger mt-4">Kebab</h5>
-                        <p className="pb-3">Lorem Ipsum is simply dummy <br />
-                         text of the printing and <br />
-                          typesetting industry</p>
-                          <div className="btnSize position-absolute top-100 start-50 translate-middle">
-                          <button type="button" class="btn btn-danger rounded-pill px-4">Danger</button>
-                          
-                          </div>
-                          </div>
-                          </div>
-                </div>
-       */}
                 </div>
                   </div>
                   
-               
-          
             <div className="position-relative mt-5 pt-5">
-                <span className="position-absolute bottom-0 end-0 " > <Image height={100} src={Leaf} className="img-fluid"  alt="img 2"/> </span>
+                <span className="position-absolute bottom-0 end-0 " >
+                  <Image height={100} src={Leaf} className="img-fluid"  alt="img 2"/> </span>
                 </div>
   </div>
     )

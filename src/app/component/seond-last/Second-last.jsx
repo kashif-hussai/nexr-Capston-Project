@@ -9,7 +9,7 @@ const SecondLast = ( ) =>{
     return(
   <div>
      <div className="mt-5 pt-5">
-        <div className="row">
+        <div className="row mx-0">
         <div className="col-md-1"></div>
 
         <div className="col-md-7">
