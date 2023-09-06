@@ -1,10 +1,10 @@
 import Image from "next/image";
-import chef from "../../assets/images/mt-2.PNG"
-import icon1 from "../../assets/images/24Icon.svg"
-import icon2 from "../../assets/images/phoneicon.svg"
-import icon3 from "../../assets/images/bookeIcon.svg"
-import icon4 from "../../assets/images/aroow.svg"
-import "./chef.css"
+import chef from "../../assets/images/mt-2.PNG";
+import icon1 from "../../assets/images/24Icon.svg";
+import Phone from "../../assets/images/phoneIcon.svg";
+import icon3 from "../../assets/images/bookeIcon.svg";
+import icon4 from "../../assets/images/aroow.svg";
+import "./chef.css"; 
 
 const ChefSection = ( ) =>{
     return(
@@ -28,7 +28,7 @@ const ChefSection = ( ) =>{
                   <div className="row  mx-0 ">
                     <div className="col-md-4 mx-0 ">
                         <div>
-                       <p> <Image src={icon2 } className="img-fluid"  alt="chef"/> <span> Online Order</span></p>
+                       <p> <Image src={Phone } className="img-fluid"  alt="chef"/> <span> Online Order</span></p>
                        <p> <Image src={icon3 } className="img-fluid"  alt="chef"/> <span> Pre-Reservation</span></p>
                        <p> <Image src={icon3 } className="img-fluid"  alt="chef"/> <span> Super Chef</span></p>
                       <span className=""> <button type="button" class="btn btn-danger rounded-pill px-3 ">About Us</button></span>

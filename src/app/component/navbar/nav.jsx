@@ -2,15 +2,14 @@ import Image from "next/image";
 import "./nav.css"
 import MLogo from "../../assets/images/mainLogo.svg"
 import HeartIcon from "../../assets/images/HeartIcon.svg"
-import PBotton from "../../assets/images/play button.svg"
+import Button from "../../assets/images/Playbutton.svg"
 import RSearch from "../../assets/images/RSearch.svg"
 import LSearch from "../../assets/images/lSearch.svg"
-import dArrow from "../../assets/images/DownArrow.svg"
-import Orange from "../../assets/images/orange.svg"
-import underLine from "../../assets/images/underLine.svg"
+import down from "../../assets/images/DownArrow.svg"
+import mango from "../../assets/images/orange.svg"
+import line from "../../assets/images/underLine.svg"
 import Arrow from "../../assets/images/ArrowUp.png"
-// import Mint from "../../assets/images/Mint.svg"
-import Girl from "../../assets/images/girl.svg"
+import bgImage from "../../assets/images/girl.svg"
 import Fire from "../../assets/images/fire.svg"
 import Lcard from "../../assets/images/L card.svg"
 import Rcard from "../../assets/images/R card.svg"
@@ -77,9 +76,9 @@ const Nevbar = ( ) =>{
           <div className="col-md-6 position-relative"> 
           <div className="position-absolute topMargin disNone"> <Image height={150} src= {Arrow} alt=""/></div>
           <div ><Image src={HeartIcon } alt=""/> <span>People Trust us</span> </div>
-          <h1 className="pt-2 tSize"><b>We're <span className="text-danger">Serious</span> For <Image src={Orange} alt=""/> <br />
+          <h1 className="pt-2 tSize"><b>We're <span className="text-danger">Serious</span> For <Image src={mango} alt=""/> <br />
            <span className="text-danger"> Food</span> & <span className=" position-relative t-color">Delivery
-            <span className="position-absolute top-100 start-50 translate-middle"><Image src={underLine} alt=""/>
+            <span className="position-absolute top-100 start-50 translate-middle"><Image height={9} src={line}  alt=""/>
             </span> </span>.</b></h1>
            <p className="py-3 pt-5 pSize">Best cooks and best delivery guys all at your <br />
             service. Hot tasty food will reach you in 60 <br />
@@ -87,9 +86,9 @@ const Nevbar = ( ) =>{
           <div className="border search py-2 px-3"> <Image src={RSearch } alt=""/> <input  type="text" className="bNone" placeholder="Search food" /> 
           <Image height={30} src={LSearch} class="img-fluid"  alt=""/> </div>
           <div className="pt-2 pSize"> <span mb-5><button type="button" class="btn btn-danger rounded-pill px-4">Downlode App </button> </span>
-         <span className=" pt-5 pSize"> <Image height={90} src={PBotton} class="img-fluid  mt-4"  alt=""/> Watch Video  </span>
+         <span className=" pt-5 pSize"> <Image height={90} src={Button } class="img-fluid  mt-4"  alt=""/> Watch Video  </span>
          </div>
-         <div className="pt-5 disNone"> <Image src={dArrow}  class="img-fluid" alt="darrow"/> </div>
+         <div className="pt-5 mt-5 disNone"> <Image src={down}  class="img-fluid" alt="darrow"/> </div>
        
           </div>
           
@@ -97,7 +96,7 @@ const Nevbar = ( ) =>{
           <div className="col-md-6 position-relative">
             
           <div className="position-absolute Margin disNone ">
-            <Image height={500} src={Girl} className="img-fluid"  alt=""/> 
+            <Image height={500} src={bgImage} className="img-fluid"  alt=""/> 
             <div className="sMargin disNone"> <Image   src={smile}  alt=""/>
             </div>
             <div className="SmargenOne disNone "> <Image height={200}  src={smile1} className="img-fluid" alt=""/></div>
