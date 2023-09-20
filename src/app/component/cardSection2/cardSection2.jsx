@@ -31,7 +31,7 @@ const CardSection2 = ( props) =>{
         Ratting: "(4.5)",
         heading: "Kebab",
         paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-        cardStyle: "disNone"
+        // cardStyle: "disNone"
       },
       {
         immageUrl1: img1 ,
@@ -41,7 +41,7 @@ const CardSection2 = ( props) =>{
         Ratting: "(4.5)",
         heading: "Kebab",
         paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-        cardStyle: "disNone"
+        // cardStyle: "disNone"
       },
       {
         immageUrl1: img1 ,
@@ -51,7 +51,7 @@ const CardSection2 = ( props) =>{
         Ratting: "(4.5)",
         heading: "Kebab",
         paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-        cardStyle: "disNone"
+        // cardStyle: "disNone"
       },
 
 

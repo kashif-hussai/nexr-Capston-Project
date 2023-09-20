@@ -64,7 +64,7 @@ const CardSection3 = ( props) =>{
               {data.map((item)=>{
                  return(
               
-                  <div className="col-md-3 position-relative disNone">
+                  <div className="col-md-3 position-relative">
                     <div className={item.cardStyle }>
                   <div className="imgP d-flex justify-content-center "><Image src={item.immageUrl2} className="img-fluid"  alt="img 2"/> </div>
                   <div className="position-absolute possition"> <Image src={item.immageUrl4}alt=""/> </div>

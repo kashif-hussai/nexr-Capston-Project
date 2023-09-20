@@ -36,7 +36,7 @@ const data = [
     Ratting: "(4.8)",
     heading: "Chicken Tikka",
     paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-    cardStyle: "disNone"
+    // cardStyle: "disNone"
   },
   {
     immageUrl1: rating3 ,
@@ -46,7 +46,7 @@ const data = [
     Ratting: "(4.2)",
     heading: "Desi Chowmein",
     paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-    cardStyle: "disNone"
+    // cardStyle: "disNone"
   },
   {
     immageUrl1: img1 ,
@@ -56,7 +56,7 @@ const data = [
     Ratting: "(5.0)",
     heading: "Chicken Chargha",
     paragraph : "Lorem Ipsum is simply dummy  text of the printing and  typesetting industry",
-    cardStyle: "disNone"
+    // cardStyle: "disNone"
   }
 ]
 

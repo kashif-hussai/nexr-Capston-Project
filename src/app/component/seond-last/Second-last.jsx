@@ -21,9 +21,9 @@ const SecondLast = ( ) =>{
                 <p className="py-4 paraSize paddingLaft">All you need to do is downlode one of the best delivery apps, make <br />
                  a and most companies are opting  for mobile app devlopment for <br />
                  food delivery</p> 
-                 <span className="paddingLaft ">
-                 <Image src={ logo1 } alt="google"/>
-                <span className="ps-5 "> <Image src={logo2} alt="iphone"/> </span>
+                 <span>
+                 <Image src={ logo1 } class="img-fluid" alt="google"/>
+                <span className="margen"> <Image  src={logo2} class="img-fluid" alt="iphone"/> </span>
                  </span>
             </div>
         </div>
@@ -31,7 +31,7 @@ const SecondLast = ( ) =>{
     
         <div className="col-md-4  mx-0 px-0">
             <div >
-            <Image  src={cheafe} alt="chef"/>
+            <Image  src={cheafe} className="sizeImage" class="img-fluid"  alt="chef"/>
             </div>
         </div>
 
